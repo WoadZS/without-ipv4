@@ -13,7 +13,7 @@ proxies:
     type: ss
     server: ${ip}
     port: ${port}
-    cipher: aes-128-gcm
+    cipher: 2022-blake3-aes-128-gcm
     password: ${password}
 `;
 }
